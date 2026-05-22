@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibhukanta Das | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Bibhukanta<span>.</span></a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#services" class="nav__link">Services</a></li>
+                    <li><a href="#projects" class="nav__link">Work</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Welcome to my space</span>
+                    <h1 class="home__title">Bibhukanta das</h1>
+                    <h3 class="home__education">Data Science Aspirant & Developer</h3>
+                    <p class="home__description">
+                        An enthusiastic student tracking and documenting my journey into Data Science. Actively learning core concepts, building Python implementations, and transforming raw data into meaningful solutions.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#projects" class="btn">View My Progress <i class="ri-arrow-right-line"></i></a>
+                        <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+                    </div>
+                    <div class="home__social">
+                        <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" class="home__social-link" title="LinkedIn"><i class="ri-linkedin-box-line"></i></a>
+                        <a href="https://github.com/YOUR_USERNAME" target="_blank" class="home__social-link" title="GitHub"><i class="ri-github-line"></i></a>
+                        <a href="https://x.com/YOUR_USERNAME" target="_blank" class="home__social-link" title="X (Twitter)"><i class="ri-twitter-x-line"></i></a>
+                        <a href="https://medium.com/@YOUR_USERNAME" target="_blank" class="home__social-link" title="Medium Blog"><i class="ri-medium-line"></i></a>
+                    </div>
+                </div>
+                
+                <div class="profile-img-container">
+                    <img src="images/portfolio.jpeg" alt="Bibhukanta Das" class="profile-avatar">
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Overview</span>
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        Learning everything I can about Data Science. My goal is to build things that solve actual problems using Python and Machine Learning. I use this portfolio to document my complete learning progress, projects, and tech blogs. If you're into data, coding, or just talking tech, I'd love to connect!
+                    </p>
+                    <div class="about__info grid">
+                        <div class="about__box">
+                            <i class="ri-terminal-box-line about__icon"></i>
+                            <h3 class="about__title">Languages</h3>
+                            <span>Python & SQL</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="ri-pulse-line about__icon"></i>
+                            <h3 class="about__title">Current Focus</h3>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="ri-git-repository-line about__icon"></i>
+                            <h3 class="about__title">Tracking Progress</h3>
+                            <span>Projects & Blogs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">Core Offerings</span>
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <i class="ri-code-s-slash-line services__icon"></i>
+                    <h3 class="services__title">Data Analysis</h3>
+                    <p class="services__description">Processing and cleaning raw data using Python libraries to extract valuable structural insights.</p>
+                </div>
+                <div class="services__card">
+                    <i class="ri-line-chart-line services__icon"></i>
+                    <h3 class="services__title">Predictive Modeling</h3>
+                    <p class="services__description">Building basic Machine Learning implementations to predict key targets based on clean datasets.</p>
+                </div>
+                <div class="services__card">
+                    <i class="ri-article-line services__icon"></i>
+                    <h3 class="services__title">Technical Blogging</h3>
+                    <p class="services__description">Writing simple, structured breakdowns of difficult computer science and cyber topics as I learn them.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <h2 class="section__title">My Projects & Blogs</h2>
+            <span class="section__subtitle">Learning Artifacts</span>
+            
+            <div class="projects__filters">
+                <button class="projects__item active-project" data-filter="all">All</button>
+                <button class="projects__item" data-filter=".project-card">Projects</button>
+                <button class="projects__item" data-filter=".blog-card">Blogs</button>
+            </div>
+
+            <div class="projects__container container grid">
+                <div class="projects__card mix project-card">
+                    <div class="project-img-frame">
+                        <i class="ri-database-2-line"></i>
+                    </div>
+                    <h3 class="projects__title">Data Science Project #1</h3>
+                    <span class="projects__subtitle">Coming Soon / Under Development</span>
+                    <a href="#" class="projects__button">View Details <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="projects__card mix blog-card">
+                    <div class="project-img-frame">
+                        <i class="ri-edit-box-line"></i>
+                    </div>
+                    <h3 class="projects__title">My First Tech Blog Post</h3>
+                    <span class="projects__subtitle">Coming Soon / Writing Mode</span>
+                    <a href="#" class="projects__button">Read Article <i class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get In Touch</span>
+            <div class="contact__container container">
+                <form id="contact-form" action="https://formspree.io/f/xredkzgv" method="POST" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="text" id="name" name="name" required class="contact__input" placeholder="Your Name">
+                        </div>
+                        <div class="contact__content">
+                            <input type="email" id="email" name="email" required class="contact__input" placeholder="Your Email Address">
+                        </div>
+                    </div>
+                    <div class="contact__content contact__area">
+                        <textarea id="message" name="message" required class="contact__input" placeholder="Write your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message <i class="ri-send-plane-line"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Bibhukanta<span>.</span></h1>
+            <ul class="footer__list">
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#projects" class="footer__link">Projects</a></li>
+                <li><a href="#services" class="footer__link">Services</a></li>
+            </ul>
+            <span class="footer__copy">&#160; 2026 Bibhukanta das. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
